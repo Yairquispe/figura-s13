@@ -1,0 +1,56 @@
+package modelo;
+
+/**
+ *
+ * @author LAB-USR-LNORTE
+ */
+public abstract class fplana extends figura {
+    private int numlados; 
+    private double angulocentral; 
+    private double valorlado;
+
+    public fplana() {
+    }
+
+    public fplana(int numlados,  double valorlado, String nombre, String tipo) {
+        super(nombre, tipo);
+        this.numlados = numlados;
+       
+        this.valorlado = valorlado;
+    }
+
+    public int getNumlados() {
+        return numlados;
+    }
+
+    public void setNumlados(int numlados) {
+        this.numlados = numlados;
+    }
+
+    public double getAngulocentral() {
+        return angulocentral;
+    }
+
+    public void setAngulocentral(double angulocentral) {
+        this.angulocentral = angulocentral;
+    }
+
+    public double getValorlado() {
+        return valorlado;
+    }
+
+    public void setValorlado(double valorlado) {
+        this.valorlado = valorlado;
+    }
+
+   public abstract  double area(); 
+   public abstract  double perimetro(); 
+
+    @Override
+    public abstract String toString();
+    
+    
+    
+    
+    
+    }// fin de la clase 
