@@ -1,0 +1,35 @@
+package modelo;
+
+/**
+ *
+ * @author LAB-USR-LNORTE
+ */
+public class poligono extends fplana {
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @Override
+    public double area() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    @Override
+    public double perimetro() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    @Override
+    public String toString() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+    
+}
