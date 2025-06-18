@@ -1,0 +1,62 @@
+package modelo;
+
+/**
+ *
+ * @author LAB-USR-LNORTE
+ */
+public class triangulo extends fplana {
+    private double a,b,c; 
+    private double alfa,beta,gama; 
+
+    public triangulo() {
+    }
+
+    public triangulo(double a, double b, double c) {
+        this.a = a;
+        this.b = b;
+        this.c = c;
+    }
+
+    public triangulo(double a, double b, double c, int numlados, double valorlado, String nombre, String tipo) {
+        super(numlados, valorlado, nombre, tipo);
+        this.a = a;
+        this.b = b;
+        this.c = c;
+    }
+    
+    //metodos complemetarios 
+    public boolean existetriangulo(){
+    boolean valorretorno = false ;
+    return valorretorno;
+ 
+    }
+    
+    public String tiposegunlado (){
+    return"";
+    
+    }
+    public String tiposegunangulo(){
+    return ""; 
+    
+    }
+    
+    
+    
+    
+//sobre eescritura de los metodos aabstractos 
+    
+    @Override
+    public double area() {
+       return 0; 
+    }
+
+    @Override
+    public double perimetro() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    @Override
+    public String toString() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+}
